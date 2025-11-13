@@ -10,4 +10,7 @@ void main(){
   on FormatException catch (e){
     print("Erreur : format invalide (${e.message})");
   }
+  finally{
+    print("Fin d'opération");
+  }
 }
